@@ -74,7 +74,7 @@ export default function Layout() {
       <Button
         onPress={() => setShowForm(true)}
         style={{
-          backgroundColor: "#751C1C",
+          backgroundColor: "#000000",
           borderRadius: 50,
           padding: 10,
           height: 64,

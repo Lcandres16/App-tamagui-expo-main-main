@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
     marginTop: 50
   },
   createFilmButton: {
-    backgroundColor: "#900000",
+    backgroundColor: "#000000",
     paddingVertical: 15,
     borderRadius: 15,
     width: 200,

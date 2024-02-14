@@ -78,7 +78,7 @@ const styles = {
     paddingTop: 60
   },
   cardContainer: {
-    backgroundColor: "#900000",
+    backgroundColor: "#F1F4FA",
     borderRadius: 20,
     padding: 10,
     marginBottom: 10,
@@ -112,7 +112,7 @@ const styles = {
     right: 30
   },
   infoText: {
-    color: "#fff",
+    color: "#000000",
     marginBottom: 5
   }
 };

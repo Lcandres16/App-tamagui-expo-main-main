@@ -21,7 +21,7 @@ interface CharactersFormProps {
   onCancel: () => void;
 }
 
-const API_URL = "http://192.168.3.18:8088";
+const API_URL = "http://10.0.10.111:8083";
 
 const CharactersForm: React.FC<CharactersFormProps> = ({
   initialData = {
@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   createFilmButton: {
-    backgroundColor: "#900000",
+    backgroundColor: "#000000",
     paddingVertical: 15,
     borderRadius: 15,
     width: 200,

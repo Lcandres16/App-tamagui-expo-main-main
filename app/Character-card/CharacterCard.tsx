@@ -38,10 +38,10 @@ const Card: React.FC<CardProps> = ({ data, handleDelete }) => {
             <Text style={styles.sceneNumber}>Characters {data.id}</Text>
           </View>
           <View style={styles.infoContainer}>
-            <Text style={styles.infoText}>Description: {data.description}</Text>
+            <Text style={styles.infoText}>Name: {data.name}</Text>
+            <Text style={styles.infoText}>role: {data.role}</Text>
             <Text style={styles.infoText}>cost: {data.cost}</Text>
-            <Text style={styles.infoText}>age: {data.age}</Text>
-            <Text style={styles.infoText}>interpreted: {data.interpreted}</Text>
+          
           </View>
           <View style={styles.buttonContainer}>
             <Pressable
@@ -78,7 +78,7 @@ const styles = {
     paddingTop: 60
   },
   cardContainer: {
-    backgroundColor: "#900000",
+    backgroundColor: "#F1F4FA",
     borderRadius: 20,
     padding: 10,
     marginBottom: 10,
@@ -112,7 +112,7 @@ const styles = {
     right: 30
   },
   infoText: {
-    color: "#fff",
+    color: "#000000",
     marginBottom: 5
   }
 };

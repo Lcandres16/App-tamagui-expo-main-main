@@ -80,8 +80,10 @@ const SceneCard: React.FC<CardProps> = ({ data, handleEdit, handleDelete }) => {
           </View>
           <View style={styles.infoContainer}>
             <Text style={styles.infoText}>Description: {data.description}</Text>
+            <Text style={styles.infoText}>Minutes: {data.minutes}</Text>
+            <Text style={styles.infoText}>Location: {data.location}</Text>
             <Text style={styles.infoText}>Budget: {data.budget}</Text>
-            <Text style={styles.infoText}>Hours: {data.hours}</Text>
+         
           </View>
           <View style={styles.buttonContainer}>
             <Pressable
@@ -121,7 +123,7 @@ const styles = StyleSheet.create({
     paddingTop: 60
   },
   cardContainer: {
-    backgroundColor: "#900000",
+    backgroundColor: "#F1F4FA",
     borderRadius: 20,
     padding: 10,
     marginBottom: 10,
@@ -155,7 +157,7 @@ const styles = StyleSheet.create({
     right: 30
   },
   infoText: {
-    color: "#fff",
+    color: "#000000",
     marginBottom: 5,
     left: 25
   }

@@ -80,7 +80,7 @@ const Layout: React.FC = () => {
       <Button
         onPress={() => setShowForm(true)}
         style={{
-          backgroundColor: "#EDF0F7",
+          backgroundColor: "#000000",
           borderRadius: 50,
           padding: 10,
           height: 64,
