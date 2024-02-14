@@ -37,8 +37,8 @@ const Card: React.FC<CardProps> = ({ data, handleEdit, handleDelete }) => {
           </View>
           <View style={styles.infoContainer}>
             <Text style={styles.infoText}>Title: {data.title}</Text>
-            <Text style={styles.infoText}>Duration: {data.duration}</Text>
             <Text style={styles.infoText}>Director: {data.director}</Text>
+            <Text style={styles.infoText}>Minutes: {data.minutes}</Text>
           </View>
           <View style={styles.buttonContainer}>
             <Pressable

@@ -17,7 +17,7 @@ interface CardProps {
   handleDelete: () => void;
 }
 
-const API_URL = "http://192.168.18.5:8083";
+const API_URL = "http://10.0.10.111:8083";
 
 const SceneCard: React.FC<CardProps> = ({ data, handleEdit, handleDelete }) => {
   const [editing, setEditing] = useState(false);

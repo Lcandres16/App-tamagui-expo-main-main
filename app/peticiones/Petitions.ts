@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 
-const baseUrl = "http://192.168.18.5:8083";
+const baseUrl = "http://10.0.10.111:8083";
 
 export const fetchFilm = async (ruta: string): Promise<any> => {
   const url = `${baseUrl}/${ruta}`;
